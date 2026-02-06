@@ -1,0 +1,43 @@
+Open Source License
+1. Copyright and Core License for Self-Developed Code
+Over 95% of the code in this project is independently developed (including full-link modules such as gesture recognition, interaction logic, UI rendering, configuration management, and data structures). The copyright of self-developed code is owned by Ruiyi Du (Copyright (c) 2026 Ruiyi Du), and the self-developed code is licensed under the MIT License in its entirety.
+Standard Text of the MIT License:
+
+MIT License
+
+Copyright (c) 2026 Ruiyi Du
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+2. Third-Party Code Reference Statement
+Approximately 5% of the code in the file src/fluid_simulator/fluid_simulator.py (the basic fluid simulation algorithm skeleton) is derived from the official open-source example of Taichi (Link: https://github.com/taichi-dev/taichi/blob/master/python/taichi/examples/simulation/eulerfluid2d.py).
+The copyright of this original code segment is owned by the Taichi development team and is licensed under the Apache License 2.0.
+We have extended and adapted this part of the code for functional purposes (adding configurable parameters, integrating gesture interaction interfaces, extending support for multiple physical fields, optimizing rendering docking logic, etc.). The modified code snippets retain the original author's copyright notice and strictly comply with the requirements of the Apache License 2.0.
+3. License Statements for Third-Party Dependencies
+This project relies on the following open-source libraries for operation, and the open-source licenses and compliance instructions for each library are as follows (ensuring that the usage scenarios comply with the license constraints):
+Taichi: Used for high-performance numerical computation in fluid physics simulation. It is licensed under the Apache License 2.0 (Official License Link: https://github.com/taichi-dev/taichi/blob/master/LICENSE). We only call its APIs without modifying the source code, fully complying with the license requirements.
+MediaPipe: Used for hand keypoint detection and gesture recognition. It is licensed under the Apache License 2.0 (Official License Link: https://github.com/google/mediapipe/blob/master/LICENSE). We only call its APIs without modifying the source code, fully complying with the license requirements.
+PyQt5: Used for graphical user interface development. It is dual-licensed under GPL v3 and commercial license (Official License Link: https://www.riverbankcomputing.com/software/pyqt/license). This project complies with GPL v3 for open-source scenarios; commercial closed-source use requires obtaining a commercial license for PyQt5 independently.
+OpenCV: Used for camera capture and image processing. It is licensed under the Apache License 2.0 (Official License Link: https://opencv.org/license/). We only call its APIs without modifying the source code, fully complying with the license requirements.
+NumPy: Used for numerical computation and data structure processing. It is licensed under the BSD 3-Clause License (Official License Link: https://github.com/numpy/numpy/blob/main/LICENSE.txt). We only call its APIs without modifying the source code, fully complying with the license requirements.
+Overall Compliance Constraints
+When distributing this project, this open-source license statement must be retained, and the MIT License notice for self-developed code and the Apache 2.0 license notice for Taichi example code shall not be deleted or altered.
+If you modify the code segments derived from Taichi's official examples, you must clearly mark the modifications in the code and open-source the modified code in compliance with the Apache License 2.0.
+The usage scope of third-party dependent libraries is strictly limited to the scenarios permitted by each library's license, and the core source code of dependent libraries is not included in the distribution of this project (only installed and used via pip).

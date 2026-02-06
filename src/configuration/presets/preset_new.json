@@ -1,0 +1,22 @@
+{
+    "delta_time": 0.01600000075995922,
+    "iteration_step": 100,
+    "mouse_radius": 0.009999999776482582,
+    "mouse_speed": 125.0,
+    "mouse_respondDistance": 1.899999976158142,
+    "curl_param": 200.0,
+    "acceleration_influence": 0.5,
+    "max_acceleration": 3.0,
+    "viscosity": 0.0010000000474974513,
+    "density": 1.0,
+    "buoyancy": 0.10000000149011612,
+    "vorticity_strength": 1.0,
+    "pressure_strength": 1.0,
+    "dissipation": 0.9950000047683716,
+    "temperature_diffusion": 0.10000000149011612,
+    "velocity_diffusion": 0.009999999776482582,
+    "click_radius": 0.019999999552965164,
+    "click_strength": 200.0,
+    "click_temperature": 0.8999999761581421,
+    "click_density": 0.800000011920929
+}

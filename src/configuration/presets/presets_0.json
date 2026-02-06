@@ -1,0 +1,22 @@
+{
+    "delta_time": 0.017,
+    "iteration_step": 20,
+    "mouse_radius": 0.01,
+    "mouse_speed": 125.0,
+    "mouse_respondDistance": 0.5,
+    "curl_param": 15,
+    "acceleration_influence": 0.5,
+    "max_acceleration": 3.0,
+    "viscosity": 0.001,
+    "density": 1.0,
+    "buoyancy": 0.1,
+    "vorticity_strength": 1.0,
+    "pressure_strength": 1.0,
+    "dissipation": 0.995,
+    "temperature_diffusion": 0.1,
+    "velocity_diffusion": 0.01,
+    "click_radius": 0.02,
+    "click_strength": 200.0,
+    "click_temperature": 0.9,
+    "click_density": 0.8
+}
