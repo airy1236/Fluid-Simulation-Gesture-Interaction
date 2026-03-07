@@ -68,6 +68,11 @@ https://github.com/taichi-dev/taichi/blob/master/python/taichi/examples/simulati
 > ```bash
 > pip install -r requirements.txt
 > ```
+> In Linux, you may need to additionally install qt-wayland, and then set export QT_QPA_PLATFORM=wayland
+> ```
+> pip install qt-wayland
+> export QT_QPA_PLATFORM=wayland
+> ```
 > 2. Run the application  
 > ```bash
 > python main.py
