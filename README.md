@@ -68,14 +68,12 @@ https://github.com/taichi-dev/taichi/blob/master/python/taichi/examples/simulati
 > ```bash
 > pip install -r requirements.txt
 > ```
-<<<<<<< HEAD
 > In Linux, you may need to additionally install qt-wayland, and then set export QT_QPA_PLATFORM=wayland
 > ```
 > pip install qt-wayland
 > export QT_QPA_PLATFORM=wayland
 > ```
 =======
->>>>>>> 67923ea (add the image path for color field)
 > 2. Run the application  
 > ```bash
 > python main.py
@@ -144,8 +142,4 @@ https://github.com/taichi-dev/taichi/blob/master/python/taichi/examples/simulati
 5. To optimize camera tracking, a ![Cursor Smoother](docs/cursor_smoother.png) is available in the parameter panel on the right side of the UI.  
     Supports switching interpolation algorithms. Default is a hybrid approach (combined Bezier curve interpolation and Kalman filter smoothing), partially compensating for low camera frame rate.
 
-<<<<<<< HEAD
 6. The entire UI is rendered using PyQt5, without using Taichi's native UI or GGUI. The fluid simulation maintains 40–50 FPS (AMD HX370 + NVIDIA RTX4060 Laptop + 32GB RAM), meeting real-time performance requirements.
-=======
-6. The entire UI is rendered using PyQt5, without using Taichi's native UI or GGUI. The fluid simulation maintains 40–50 FPS (AMD HX370 + NVIDIA RTX4060 Laptop + 32GB RAM), meeting real-time performance requirements.
->>>>>>> 67923ea (add the image path for color field)
