@@ -28,12 +28,7 @@ ti.init(arch=ti.gpu, default_fp=ti.f32)
 
 class FluidGestureApp:
     """Fluid Gesture App"""
-    
-<<<<<<< HEAD
-    def __init__(self):
-=======
     def __init__(self, colorfield_path):
->>>>>>> 67923ea (add the image path for color field)
         # create configuration manager
         self.config_manager = ConfigManager()
         
@@ -58,12 +53,8 @@ class FluidGestureApp:
         
         # load color field
         #self.simulation.colorfield("src/data/image/lhb.jpg")
-<<<<<<< HEAD
-        self.simulation.colorfield("default")
-=======
         #self.simulation.colorfield("src/data/image/Furude_Rika.jpg")
         self.simulation.colorfield(colorfield_path)
->>>>>>> 67923ea (add the image path for color field)
 
         # function to be passed to the renderer 
         self.simulation_functions = {
