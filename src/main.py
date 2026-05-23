@@ -12,7 +12,11 @@ if src_dir not in sys.path:
 from application.fluid_gesture_app import FluidGestureApp
 
 def run():
+<<<<<<< HEAD
     app = FluidGestureApp()
+=======
+    app = FluidGestureApp("src/data/image/Furude_Rika.jpg") # modify the path to load image(color field)
+>>>>>>> 67923ea (add the image path for color field)
     try:
         return app.run()
     finally:

@@ -65,11 +65,14 @@ NumPy：数据处理与数值计算
 > ```bash
 > pip install -r requirements.txt
 > ```
+<<<<<<< HEAD
 > 在linux下可能需要额外安装qt-wayland，然后设置export QT_QPA_PLATFORM=wayland
 > ```
 > pip install qt-wayland
 > export QT_QPA_PLATFORM=wayland
 > ```
+=======
+>>>>>>> 67923ea (add the image path for color field)
 > 2. 运行应用
 > ```bash
 > python main.py
